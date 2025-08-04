@@ -1,5 +1,5 @@
-# Usar imagen oficial de Python 3.11 slim
-FROM python:3.11-slim
+# Usar imagen oficial de Python 3.11 slim para AMD64
+FROM --platform=linux/amd64 python:3.11-slim
 
 # Configurar variables de entorno
 ENV PYTHONDONTWRITEBYTECODE=1 \
